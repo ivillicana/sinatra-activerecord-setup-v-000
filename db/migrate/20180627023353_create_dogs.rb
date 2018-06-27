@@ -6,6 +6,6 @@ class CreateDogs < ActiveRecord::Migration
     end
   end
   def down
-
+    drop_table :dogs
   end
 end
